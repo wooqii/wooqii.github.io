@@ -1,5 +1,6 @@
 ---
 title: Lorem Ipsum Dolor Sit Amet
+category: [Blog]
 featured: images/pic01.jpg
 layout: post
 ---
