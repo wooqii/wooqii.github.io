@@ -7,7 +7,6 @@ layout: default
 	<div id="main">
 		<div id="content" class="container">
 			{% for post in site.categories.LPT offset: 0 limit: 2 %}
-	
 			<div class="row">
 				<section class="8u -2u">
 					<a href="{{ site.prefix }}{{ post.url }}" class="image full"><img src="/assets/{{ post.featured }}" alt=""></a>
@@ -17,7 +16,7 @@ layout: default
 					{{ post.excerpt }}
 					<a href="{{ site.prefix }}{{ post.url }}" class="button button-style1">Read More</a>
 				</section>
-			</d>
+			</div>
 			{% endfor %}
 		</div>
 	</div>
