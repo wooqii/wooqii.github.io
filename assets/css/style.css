@@ -30,13 +30,13 @@
 
 	h1,h2,h3,h4,h5,h6
 	{
-		font-weight: 300;
+		font-weight: 350;
 		color: #777;
 	}
 	
 		h2
 		{
-			letter-spacing: -0.025em;
+			letter-spacing: -0.075em;
 		}
 	
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
@@ -108,6 +108,7 @@
 	
 		header h2
 		{
+			font-size: 12pt
 		}
 
 		header .byline

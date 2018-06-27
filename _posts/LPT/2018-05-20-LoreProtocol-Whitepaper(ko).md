@@ -1,7 +1,7 @@
 ---
 title: Lore Protocol White Paper(ko)
 category: [LPT]
-featured: images/pic01.jpg
+featured: images/LPT(KO).png
 layout: post
 description: LoreProtocol WhitePaper (KO)
 ---
