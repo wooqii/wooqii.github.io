@@ -1,3 +1,4 @@
 name: Lore Protocol
 description: Lore Protocol By Wooqii
 paginate: 10
+markdown: rdiscount
