@@ -93,8 +93,8 @@
 	{
 		border: 0;
 		border-top: solid 1px #ddd;
-		margin: 6em 0 0 0;
-		padding: 6em 0 0 0;
+		margin: 2em 0 0 0;
+		padding: 2em 0 0 0;
 	}
 	
 	blockquote
@@ -107,6 +107,7 @@
 	p, ul, ol, dl, table
 	{
 		margin-bottom: 1em;
+
 	}
 
 	header
@@ -215,14 +216,17 @@
 	/* Lists */
 
 		ul.default
-		{
+		{	
+			display: inline;
 			margin: 0;
 			padding: 0em 0em 1.5em 0em;
-			list-style: none;
+			list-style-type: disc;
+			border-color: rgba(0,0,0,.1);
 		}
 		
 			ul.default li
 			{
+				list-style-type: disc;
 				padding: 0.60em 0em;
 				font-size: 0.95em;
 				border-top: 1px solid;
@@ -231,15 +235,19 @@
 		
 			ul.default li:first-child
 			{
+				list-style-type: disc;
 				padding-top: 0;
 				border-top: none;
 			}
 	
 			ul.default {
+				display: inline;
+				list-style-type: disc;
 			}
 		
 		ul.style li {
 			margin: 0;
+			list-style-type: disc;
 			padding: 2em 0em 1.5em 0em;
 			border-top: 1px solid;
 			border-color: rgba(0,0,0,.1);
@@ -247,6 +255,7 @@
 		
 		ul.style li:first-child
 		{
+			list-style-type: disc;
 			padding-top: 0;
 			border-top: none;
 		}
@@ -257,10 +266,12 @@
 		}
 		
 		ul.style a {
+			list-style-type: disc;
 			color: #434343;
 		}
 		
 		ul.style .posted {
+			list-style-type: disc;
 			padding: 0em 0em 1em 0em;
 			letter-spacing: 1px;
 			text-transform: uppercase;
@@ -269,6 +280,7 @@
 		}
 		
 		ul.style .first {
+			list-style-type: disc;
 			padding-top: 0px;
 			border-top: none;
 		}
@@ -340,7 +352,7 @@
 		.fa-4x{font-size:4em}
 		.fa-5x{font-size:5em}
 		.fa-fw{width:1.2857142857142858em;text-align:center}
-		.fa-ul{padding-left:0;margin-left:2.142857142857143em;list-style-type:none}.fa-ul>li{position:relative}
+		.fa-ul{padding-left:0;margin-left:2.142857142857143em;list-style-type:disc;}.fa-ul>li{position:relative}
 		.fa-li{position:absolute;left:-2.142857142857143em;width:2.142857142857143em;top:.14285714285714285em;text-align:center}.fa-li.fa-lg{left:-1.8571428571428572em}
 		.fa-border{padding:.2em .25em .15em;border:solid .08em #eee;border-radius:.1em}
 		.pull-right{float:right}
@@ -737,9 +749,10 @@
 /*********************************************************************************/
 
 	ul.contact
-	{
+	{	
+		display: block;
 		padding: 1.5em 0 0 0;
-		list-style: none;
+		list-style-type: disc;
 		cursor: default;
 	}
 	
@@ -751,7 +764,7 @@
 	
 	ul.contact li span
 	{
-		display: none;
+		display: block;
 		margin: 0;
 		padding: 0;
 	}
@@ -1135,3 +1148,16 @@ pre code {
   .css .o + .nt,
   .css .nt + .nt { color: #999; }
   
+  /* Lists */
+	ul, ol, dl {
+		margin-top: 0;
+		margin-bottom: 1rem;
+	}
+	
+	dt {
+		font-weight: bold;
+	}
+	dd {
+		margin-bottom: .5rem;
+	}
+	

@@ -22,7 +22,7 @@ Copyright © 2018 Nonce, Inc. All rights are reserved.
 
 * [Introduction](#Introduction)
 * [Lore Protocol](#Lore Protocol)
-    * [regulation](#regulation)
+* [regulation](#regulation)
     
 
 
