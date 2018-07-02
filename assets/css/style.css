@@ -42,9 +42,17 @@
 		h2
 		{
 			margin-bottom: 1rem;
-  			font-size: 1.5rem;
+  			font-size: 1.75rem;
 			letter-spacing: -0.075em;
 			line-height: 1.5em
+		}
+
+		h3
+		{
+			margin-bottom: 1rem;
+			font-size: 1rem;
+			letter-spacing: 0em;
+			line-height: 1.5em	
 		}
 	
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
