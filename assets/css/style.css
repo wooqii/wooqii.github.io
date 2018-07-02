@@ -35,7 +35,7 @@
 		margin-bottom: 1rem;
 	}
 		h1
-		{
+		{	display: inline;
 			font-size: 2rem;
 			line-height: 1.5em
 		}
