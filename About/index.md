@@ -18,6 +18,7 @@ title: About
 
 ### **Research**
   - Blockchain Research Session **[Lore](https://wooqii.github.io)** 운영.  
+  - **[K-Blokcchain Research-케블리](https://steemit.com/@kblock)** 2기 
 
 ### **translation**
   - **[Solidity-kor](https://github.com/solidity-korea/solidity-docs-kr)**
