@@ -6,6 +6,7 @@ title: About
 
 ## 이동욱
   - 개발 잘 하고픈 **Solidity** 수련생.
+  - **[Talent X 8기 Blockchain Rookie30](http://www.talentx.co.kr/admission)**
   - **[D.next](https://campus.dnext.co/)**에서 **Solidity** 고급과정 이수.
   - **2017** **[CFA Research Challenge](https://www.cfainstitute.org/societies/challenge)** 인하대학교 대표.  
   **[CJ E&M](https://1drv.ms/b/s!AnqMWEEqb4B_jVJfmRDrNt8ZbhVZ)** 분석.
